@@ -63,7 +63,7 @@ body {
 
 .container .left_Side {
   position: relative;
-  background: #ef233c;
+  background: #d90429;
   padding: 40px;
 }
 
@@ -155,7 +155,7 @@ body {
 
 .contactInfo ul li span a:hover, a:active {
   background-color: #fff;
-  color: #ef233c;
+  color: #d90429;
   cursor: pointer;
 }
 
@@ -182,7 +182,7 @@ body {
   position: relative;
   width: 100%;
   height: 6px;
-  background: #d90429;
+  background: #ef233c;
   display: block;
   margin-top: 5px;
 }
@@ -195,10 +195,9 @@ body {
   background: #edf2f4;
 }
 
+/* RIGHT SIDE */
 
-
-.co
-ntainer .right_Side {
+.container .right_Side {
   position: relative;
   background: #fff;
   padding: 40px;
@@ -213,7 +212,7 @@ ntainer .right_Side {
 }
 
 .title2 {
-  color: #ef233c;
+  color: #d90429;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
@@ -223,6 +222,113 @@ p {
   color: #333;
 }
 
+.about .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.about .box .year_company {
+  min-width: 150px;
+}
+
+.about .box .year_company h5 {
+  text-transform: uppercase;
+  color: #2b2d42;
+  font-weight: 600;
+}
+
+.about .box .text h4 {
+  text-transform: uppercase;
+  color: #ef233c;
+  font-weight: 600;
+}
+
+
+.skills .box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  /* next 150px as in:
+  
+  .about .box .year_company {
+  min-width: 150px;
+  }  
+  */
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .box h4 {
+  text-transform: uppercase;
+  color: #ef233c;
+  font-weight: 500;
+}
+
+.skills .box .percent {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #edf2f4;
+}
+
+.skills .box .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #ef233c;
+}
+
+.interest ul {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.interest ul li {
+  list-style: none;
+  color: #333;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.interest ul li .icon {
+  color:#ef233c;
+  font-size: 18px;
+  width: 20px;
+  margin-right: 4px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1,1fr);
+  }
+  
+  .interest ul {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .about .box {
+    flex-direction: column;
+  }
+
+  .about .box .year_company {
+    margin-bottom: 5px;
+  }
+
+  .interest ul {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .skills .box {
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+
 /*
-20:24
+xx:xx
 */

@@ -1,17 +1,20 @@
-# Resume CV design in HTML CSS
+# Raúl Federico Lacabanne | Responsive resume
 
-https://youtu.be/wWqihnEk6_c
+Based on "How to Create Responsive Resume Website using HTML and CSS | Resume CV design in HTML CSS"
 
-25:33
+URL: https://youtu.be/hnjHCmaUVPg
 
-paleta de color:
-=============
-#d90429	rojo oscuro
+Youtube channel: https://www.youtube.com/@OnlineTutorialsYT
 
-#ef233c	rojo claro
 
-#edf2f4	gris claro
+## Color pallete:
 
-#8d99ae	gris medio
+#d90429	dark red
 
-#2b2d42	gris oscuro
+#ef233c	bright red
+
+#edf2f4	light grey
+
+#8d99ae	mid grey
+
+#2b2d42	dark grey

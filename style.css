@@ -1,4 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');*/
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-weight: normal;
+  font-style: normal;
+  src:  url('assets/fonts/poppins-light-webfont.woff2') format('woff2'),
+        url('assets/fonts/poppins-light-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-weight: normal;
+  font-style: normal;
+  src:  url('assets/fonts/poppins-regular-webfont.woff2') format('woff2'),
+        url('assets/fonts/poppins-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-weight: bold;
+  font-style: normal;
+  src:  url('assets/fonts/poppins-bold-webfont.woff2') format('woff2'),
+        url('assets/fonts/poppins-bold-webfont.woff') format('woff');
+}
 
 * {
   margin: 0;

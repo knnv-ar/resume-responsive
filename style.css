@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 @font-face {
   font-family: 'Poppins';
@@ -33,40 +33,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-/*
-#d90429 rojo oscuro
-#ef233c rojo claro
-#edf2f4 gris claro
-#8d99ae gris medio
-#2b2d42 gris oscuro
-*/
-
-/*
-
-https://www.w3schools.com/css/css3_variables.asp
-
-:root {
-  --blue: #1e90ff;
-  --white: #ffffff;
-}
-
-body { background-color: var(--blue); }
-
-h2 { border-bottom: 2px solid var(--blue); }
-
-.container {
-  color: var(--blue);
-  background-color: var(--white);
-  padding: 15px;
-}
-
-button {
-  background-color: var(--white);
-  color: var(--blue);
-  border: 1px solid var(--blue);
-  padding: 5px;
-}
-*/
 
 body {
   background: #edf2f4;
